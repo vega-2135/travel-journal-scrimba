@@ -16,3 +16,42 @@ h1 {
 .logo {
     width:35px;
 }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.site-img {
+    width: 325px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.location {
+    width: 5%;
+}
+
+.japan {
+    margin: 0 10px;
+}
+
+.content {
+    width: 20%;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.description {
+    text-align: justify;
+}
