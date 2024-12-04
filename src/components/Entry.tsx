@@ -6,7 +6,7 @@ export default function Entry(props) {
         <>
             <article className='main-container'>
                 <div>
-                    <img className='location-img-container' src={props.image.src} alt={props.image.alt} />
+                    <img className='location-img-container' src={props.img.src} alt={props.img.alt} />
                 </div>
                 <div className='content'>
                     <img src={location} className='location' alt="location icon" />
@@ -15,7 +15,7 @@ export default function Entry(props) {
                         View on Google Maps
                     </a>
                     <h2>{props.title}</h2>
-                    <p className='date'>{props.date}</p>
+                    <p className='date'>{props.dates}</p>
                     <p className='description'>{props.text}</p>
                 </div>
             </article>
